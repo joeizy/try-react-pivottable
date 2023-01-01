@@ -5,6 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import TryApp from './try/Try';
 import TryPlotlyApp from './try/TryPlotly';
+import TryPlotlyFunctional from './try/TryPlotlyFunctional';
+import TryFunctional from './try/TryFunctional';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -13,7 +15,9 @@ root.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <TryApp /> */}
-    <TryPlotlyApp />
+    {/* <TryPlotlyApp /> */}
+    {/* <TryPlotlyFunctional /> */}
+    <TryFunctional />
   </React.StrictMode>
 );
 

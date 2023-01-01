@@ -19,12 +19,15 @@ class TryPlotlyApp extends React.Component {
 
     render() {
         return (
-            <PivotTableUI
-                data={data}
-                onChange={s => this.setState(s)}
-                renderers={Object.assign({}, TableRenderers, PlotlyRenderers)}
-                {...this.state}
-            />
+            <>
+                <h1>Try Plotly</h1>
+                <PivotTableUI
+                    data={data}
+                    onChange={s => this.setState(s)}
+                    renderers={Object.assign({}, TableRenderers, PlotlyRenderers)}
+                    {...this.state}
+                />
+            </>
         );
     }
 }
