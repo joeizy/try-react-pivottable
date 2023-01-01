@@ -11,4 +11,4 @@
 - Package not updated for two years.
 - README says "react-pivottable is part of Plotly's React Component Suite" but it's not listed on [the plotly docs pages](https://plot.ly/products/react/). Maybe deprecated.
 - Still has 29,749 weekly downloads
-- [Examples are in JavaScript](https://github.com/plotly/react-pivottable/blob/master/examples/App.jsx) with React Component Classes. My test examples are in Typescript with Functional/React Hooks. Project created with `npx create-react-app --template typescript`.
+- [Examples are in JavaScript](https://github.com/plotly/react-pivottable/blob/master/examples/App.jsx) with React Component Classes. My tests are in Typescript with Functional/React Hooks. Project created with `npx create-react-app --template typescript`.
