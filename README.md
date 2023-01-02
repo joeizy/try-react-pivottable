@@ -6,7 +6,7 @@ Started as JS library. Ported to react to make it easier to use in react project
 - GitHub Repo: https://github.com/plotly/react-pivottable
 - JS Version Examples: https://pivottable.js.org/examples/
 - JS Version Docs: https://github.com/nicolaskruchten/pivottable/wiki/Parameters
-- Demo Page: https://react-pivottable.js.org/
+- **Demo Page: https://react-pivottable.js.org/**
 
 # Notes
 - Package not updated for two years.
